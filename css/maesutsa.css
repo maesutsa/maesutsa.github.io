@@ -1,8 +1,3 @@
-/*!
- * Start Bootstrap - Grayscale v1.1.0 (http://startbootstrap.com/template-overviews/grayscale)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
 body {
   height: 100%;
   width: 100%;
@@ -175,7 +170,7 @@ a:focus {
   background-image: url('../img/aide.jpg');
 }
 .john {
-  background-image: url('../img/john.JPG');
+  background-image: url('../img/john.jpg');
 }
 .ale {
   background-image: url('../img/ale.jpg');

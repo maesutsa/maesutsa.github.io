@@ -1,12 +1,12 @@
 {
-  "name": "grayscale",
-  "title": "Grayscale",
+  "name": "MAES UTSA",
+  "title": "MAES UTSA",
   "version": "1.1.0",
-  "homepage": "http://startbootstrap.com/template-overviews/grayscale",
-  "author": "Start Bootstrap",
+  "homepage": "http://maesutsa.org",
+  "author": "Luis Bustamante",
   "license": {
     "type": "MIT",
-    "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
+    "url": "https://github.com/maesutsa/maesutsa.github.io"
   },
   "devDependencies": {
     "bootstrap": "^3.3.6",
