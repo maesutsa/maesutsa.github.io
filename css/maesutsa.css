@@ -52,6 +52,7 @@ a:focus {
 .light {
   font-weight: 400;
 }
+/*navigation bar*/
 .navbar-custom {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -117,6 +118,7 @@ a:focus {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
+/*Home page*/
 .intro {
   display: table;
   width: 100%;
@@ -155,39 +157,6 @@ a:focus {
     font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
 }
-/* .pic creates a circular border for the pictures on the website*/
-.pic {
-  display: inline-block;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
-/*These are the images used within the circular border*/
-.aide {
-  background-image: url('../img/aide.jpg');
-}
-.john {
-  background-image: url('../img/john.jpg');
-}
-.ale {
-  background-image: url('../img/ale.jpg');
-}
-.angel {
-  background-image: url('../img/angel.jpg');
-}
-.hex {
-  background-image: url('../img/hex.png');
-}
-.luis {
-  background-image: url('../img/luis.jpg');
-}
-.les {
-  background-image: url('../img/les.jpeg');
-}
-/*end of images*/
 @-webkit-keyframes pulse {
   0 {
     -webkit-transform: scale(1);
@@ -216,43 +185,57 @@ a:focus {
     transform: scale(1);
   }
 }
+/*About, Join, Calendar, Officers*/
 .content-section {
   padding-top: 100px;
 }
-
-.responsive-iframe-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
-}
-.responsive-iframe-container iframe,
-.vresponsive-iframe-container object,
-.vresponsive-iframe-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-#map {
+/*#map {
   width: 100%;
   height: 200px;
   margin-top: 100px;
-}
+}*/
 @media (min-width: 767px) {
   .content-section {
     padding-top: 250px;
   }
-  .download-section {
-    padding: 100px 0;
-  }
-  #map {
+  /*#map {
     height: 400px;
     margin-top: 250px;
-  }
+  }*/
 }
+/*Circular borders for images*/
+.pic {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+/*All images using .pic*/
+.aide {
+  background-image: url('../img/aide.jpg');
+}
+.john {
+  background-image: url('../img/john.jpg');
+}
+.ale {
+  background-image: url('../img/ale.jpg');
+}
+.angel {
+  background-image: url('../img/angel.jpg');
+}
+.hex {
+  background-image: url('../img/hex.png');
+}
+.luis {
+  background-image: url('../img/luis.jpg');
+}
+.les {
+  background-image: url('../img/les.jpeg');
+}
+/*Buttons*/
 .btn {
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -274,6 +257,7 @@ a:focus {
   color: white;
   background-color: #051e42;
 }
+/*Social site buttons organization*/
 ul.banner-social-buttons {
   margin-top: 0;
 }
