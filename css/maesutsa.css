@@ -60,7 +60,7 @@ a:focus {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #051e42;
 }
-/*.navbar-custom .navbar-toggle {
+.navbar-custom .navbar-toggle {
   color: white;
   background-color: rgba(255, 255, 255, 0.2);
   font-size: 12px;
@@ -68,7 +68,7 @@ a:focus {
 .navbar-custom .navbar-toggle:focus,
 .navbar-custom .navbar-toggle:active {
   outline: none;
-}*/
+}
 .navbar-custom .navbar-brand {
   font-weight: 700;
 }
