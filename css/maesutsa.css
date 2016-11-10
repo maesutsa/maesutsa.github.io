@@ -103,20 +103,20 @@ a:focus {
   color: white;
 }
 @media (min-width: 768px) {
-  .navbar-custom {
-    padding: 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  /*.navbar-custom {
+    padding: 20px 0;
+    border-bottom: none;
     letter-spacing: 1px;
-    background: #051e42;
+    background: transparent;
     -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
     -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
     transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
-  }
-  .navbar-custom.top-nav-collapse {
+  }*/
+  /*.navbar-custom.top-nav-collapse {
     padding: 0;
     background: #051e42;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  }
+  }*/
 }
 /*Home page*/
 .intro {
