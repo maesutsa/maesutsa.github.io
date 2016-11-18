@@ -203,21 +203,10 @@ a:focus {
     margin-top: 250px;
   }*/
 }
-.box {
-    margin-bottom: 20px;
-    padding: 30px 15px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+div.c-wrapper{
+    width: 80%; /* for example */
+    margin: auto;
 }
-
-@media screen and (min-width:1200px) {
-    .box:after {
-        content: '';
-        display: table;
-        clear: both;
-    }
-}
-
 /*Circular borders for images*/
 .pic {
   display: inline-block;
