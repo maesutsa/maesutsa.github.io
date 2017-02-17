@@ -203,6 +203,16 @@ a:focus {
     margin-top: 250px;
   }*/
 }
+.rolloverimage{
+display: block;
+width: 56px;
+height: 90px;
+background: url(../img/rollover.jpg) bottom;
+text-indent: -99999px;
+}
+.rolloverimage:hover{
+background-position: 0 0;
+}
 .img-responsive,
 .thumbnail > img,
 .thumbnail a > img,
