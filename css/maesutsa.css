@@ -230,6 +230,17 @@ a:focus {
     background-image: none;
 }
 /*Circular borders for images*/
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+caption{
+    color: black;
+}
 .pic {
   display: inline-block;
   width: 150px;
