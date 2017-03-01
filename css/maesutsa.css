@@ -102,6 +102,55 @@ a:focus {
 .navbar-custom .nav li.active a:hover {
   color: white;
 }
+nav ul ul {
+    display: none;
+}
+nav ul li:hover>ul {
+    display: block;
+}
+nav ul:after {
+    content: ""; clear: both; display: block;
+}
+nav ul li {
+    float: left;
+}
+nav ul li:hover {
+    color: rgba(255, 255, 255, 0.8);
+    outline: none;
+    background-color: transparent;
+}
+nav ul li:hover a {
+    color: white;
+}
+
+nav ul li a {
+    display: block; padding: 25px 40px;
+    color: white; text-decoration: none;
+}
+nav ul ul {
+    background: #051e42; border-radius: 0px; padding: 0;
+    position: absolute; top: 100%;
+}
+nav ul ul li {
+    float: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    position: relative;
+}
+nav ul ul li a {
+    padding: 15px 40px;
+    color: #fff;
+}
+nav ul ul li a:hover {
+				background: #051e42;
+}
+nav ul ul ul {
+    position: absolute; left: 100%; top:0;
+}
+.no-bullets {
+    list-style-type: none;
+}
+
 /*@media (min-width: 768px) {
   .navbar-custom {
     padding: 20px 0;
