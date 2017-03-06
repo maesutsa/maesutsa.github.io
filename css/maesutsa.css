@@ -102,61 +102,66 @@ a:focus {
 .navbar-custom .nav li.active a:hover {
   color: white;
 }
-nav ul ul {
-    display: none;
+.dropdown {
+    position: relative;
+    display: inline-block;
 }
-nav ul li:hover>ul {
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #051e42;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
     display: block;
 }
-nav ul:after {
-    content: ""; clear: both; display: block;
-}
-nav ul li {
-    float: left;
-}
-nav ul li:hover {
-    color: rgba(255, 255, 255, 0.8);
-    outline: none;
-    background-color: transparent;
-}
-nav ul li:hover a {
-    color: white;
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
-nav ul li a {
-    display: block; padding: 25px 40px;
-    color: white; text-decoration: none;
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
 }
-nav ul ul {
-    background: #051e42; border-radius: 0px; padding: 0;
-    position: absolute; top: 100%;
+/*
+.navbar-custom .dropdown-menu li {
+    display: block;
 }
-nav ul ul li {
-    float: none;
-    border-top: 1px solid rgba(255, 255, 255, 0.3);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    position: relative;
+.navbar-custom .dropdown-menu li:last-child {
+    margin-right: 0;
 }
-nav ul ul li a {
-    padding: 15px 40px;
-    color: #fff;
+.navbar-custom .dropdown-menu li a {
+    padding: 3px 20px;
+    min-height: 0;
 }
-nav ul ul li a:hover {
-				background: #051e42;
+.navbar-custom .dropdown-menu li a div {
+    white-space: normal;
 }
-nav ul ul ul {
-    position: absolute; left: 100%; top:0;
-}
-.no-bullets {
-    list-style-type: none;
-}
-
-/*@media (min-width: 768px) {
+.navbar-custom .dropdown-newsletter {
+    right: auto;
+    left: auto;
+}*/
+@media (min-width: 768px) {
   .navbar-custom {
-    padding: 20px 0;
-    border-bottom: none;
-    letter-spacing: 1px;
-    background: transparent;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    text-transform: uppercase;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #051e42;
     -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
     -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
     transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
@@ -166,7 +171,7 @@ nav ul ul ul {
     background: #051e42;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
-}*/
+}
 /*Home page*/
 .intro {
   display: table;
