@@ -25,16 +25,6 @@ $(function() {
 $('.navbar-collapse ul li a').click(function() {
     $(this).closest('.collapse').collapse('toggle');
 });
-
-$('.dropdown-toggle').click(function(e) {
-                            e.preventDefault();
-                            setTimeout($.proxy(function() {
-                                               if ('ontouchstart' in document.documentElement) {
-                                               $(this).siblings('.dropdown-backdrop').off().remove();
-                                               }
-                                               }, this), 0);
-                            });
-
 /*
 // Google Maps Scripts
 var map = null;
