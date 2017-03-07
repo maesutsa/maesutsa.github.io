@@ -38,7 +38,7 @@
   <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
     <div class="container">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-main-collapse" aria-expanded="false">
           MENU <i class="fa fa-bars fa-fw"></i>
         </button>
         <a class="navbar-brand page-scroll" href="#page-top">
@@ -68,16 +68,12 @@
             <a class="page-scroll" href="#contact">Contact</a>
           </li>
           <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                  Newsletter
-              </a>
-              <div class="dropdown-content">
-                  <a href="https://app.flashissue.com/newsletters/5b8bb31d21d722fdd8240c94e6d81d8b498f42ba" target="_blank">Mar 3, 2017</a>
-                  
-                  <a href="https://app.flashissue.com/newsletters/fa5e98ad94e8bae7b3d2bfc53ee32878ae0fe0f2" target="_blank">Feb 22, 2017</a>
-                  
-              </div>
-              <!-- /.dropdown-user -->
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                  Newsletter <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                  <li><a href="https://app.flashissue.com/newsletters/5b8bb31d21d722fdd8240c94e6d81d8b498f42ba" target="_blank"><font color="white">Mar 3, 2017</font></a></li>
+                  <li><a href="https://app.flashissue.com/newsletters/fa5e98ad94e8bae7b3d2bfc53ee32878ae0fe0f2" target="_blank"><font color="white">Feb 22, 2017</font></a></li>    
+              </ul>
           </li>
         </ul>
       </div>
