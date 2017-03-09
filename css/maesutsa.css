@@ -102,25 +102,14 @@ a:focus {
 .navbar-custom .nav li.active a:hover {
   color: white;
 }
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-.dropdown-menu {
-    display: none;
-    position: absolute;
+.navbar-custom .open .dropdown-menu>li>a,.navbar-custom .open .dropdown-menu {
     background-color: #051e42;
-    min-width: 140px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    color:#ffffff;
+    min-width:140px;
 }
-.dropdown-menu a {
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-.dropdown-menu a:hover {background-color: rgba(255, 255, 255, 0.8);}
+  
+.navbar-custom .open .dropdown-menu a:hover {color: rgba(255, 255, 255, 0.8)}
+
 /*Home page*/
 .intro {
   display: table;
