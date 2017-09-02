@@ -284,22 +284,22 @@ caption{
   background-image: url('../img/membershipsecretary.jpg');
 }
 .treas {
-  background-image: url('../img/treasurer.png');
+  background-image: url('../img/treasurer.jpg');
 }
 .web {
   background-image: url('../img/webmaster.jpg');
 }
 .sec {
-  background-image: url('../img/secretary.jpeg');
+  background-image: url('../img/secretary.jpg');
 }
 .his {
-  background-image: url('../img/historian.jpeg');
+  background-image: url('../img/historian.jpg');
 }
 .pr {
-  background-image: url('../img/publicrelations.jpeg');
+  background-image: url('../img/publicrelations.jpg');
 }
 .scext {
-  background-image: url('../img/scienceextravaganza.jpeg');
+  background-image: url('../img/scienceextravaganza.jpg');
 }
 /*Buttons*/
 .btn {
