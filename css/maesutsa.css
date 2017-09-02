@@ -271,26 +271,35 @@ caption{
   background-size: cover;
 }
 /*All images using .pic*/
-.aide {
-  background-image: url('../img/aide.jpg');
+.pres {
+  background-image: url('../img/president.jpg');
 }
-.john {
-  background-image: url('../img/john.jpg');
+.vp {
+  background-image: url('../img/vicepresident.jpg');
 }
-.ale {
-  background-image: url('../img/ale.jpg');
+.vpout {
+  background-image: url('../img/vicepresidentoutreach.jpg');
 }
-.angel {
-  background-image: url('../img/angel.jpg');
+.memsec {
+  background-image: url('../img/membershipsecretary.jpg');
 }
-.hex {
-  background-image: url('../img/hex.png');
+.treas {
+  background-image: url('../img/treasurer.png');
 }
-.luis {
-  background-image: url('../img/luis.jpg');
+.web {
+  background-image: url('../img/webmaster.jpg');
 }
-.les {
-  background-image: url('../img/les.jpeg');
+.sec {
+  background-image: url('../img/secretary.jpeg');
+}
+.his {
+  background-image: url('../img/historian.jpeg');
+}
+.pr {
+  background-image: url('../img/publicrelations.jpeg');
+}
+.scext {
+  background-image: url('../img/scienceextravaganza.jpeg');
 }
 /*Buttons*/
 .btn {
