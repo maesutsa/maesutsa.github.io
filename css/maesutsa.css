@@ -115,6 +115,7 @@ a:focus {
   display: table;
   width: 100%;
   height: 100%;
+  scale: 105%;
   text-align: center;
   color: white;
   background: url(../img/main.jpg) no-repeat bottom center scroll;
