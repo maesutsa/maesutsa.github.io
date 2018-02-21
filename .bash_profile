@@ -1,6 +1,0 @@
-alias fox='ssh -x rjz134@fox01.cs.utsa.edu'
-alias sftpfox='sftp rjz134@fox01.cs.utsa.edu'
-alias maes='cd ~/iCloud/Websites/maesutsa.github.io'
-alias luis='cd ~/iCloud/Websites/luisbusta.github.io'
-alias extra='cd ~/iCloud/cs/extra'
-alias xcode='open -a Xcode'
